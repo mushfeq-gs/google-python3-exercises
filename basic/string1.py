@@ -84,7 +84,7 @@ def main():
   test(donuts(10), 'Number of donuts: many')
   test(donuts(99), 'Number of donuts: many')
 
-  print('\n)
+  print('\n')
   print('both_ends')
   test(both_ends('spring'), 'spng')
   test(both_ends('Hello'), 'Helo')
@@ -92,14 +92,14 @@ def main():
   test(both_ends('xyz'), 'xyyz')
 
 
-  print('\n)
+  print('\n')
   print('fix_start')
   test(fix_start('babble'), 'ba**le')
   test(fix_start('aardvark'), 'a*rdv*rk')
   test(fix_start('google'), 'goo*le')
   test(fix_start('donut'), 'donut')
 
-  print('\n)
+  print('\n')
   print('mix_up')
   test(mix_up('mix', 'pod'), 'pox mid')
   test(mix_up('dog', 'dinner'), 'dig donner')
@@ -108,5 +108,5 @@ def main():
 
 
 # Standard boilerplate to call the main() function.
-if __name__ == '__main__'))):
+if __name__ == '__main__':
   main()
